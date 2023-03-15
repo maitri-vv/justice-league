@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import SplitType from 'split-type'
+// import SplitType from 'split-type'
 
 // let text = new SplitType('#text');
 //         let characters = document.querySelectorAll('.char');
@@ -33,13 +33,13 @@ export default function Home() {
       </Head>   
       
       
-      <div className="md:min-h-screen h-96 hero justify-end " style={{ backgroundImage: `url("/images/justice.jpg")` }}>
-        <div className="hero object-cover"></div>
+      <div className="justify-end md:min-h-screen h-96 hero " style={{ backgroundImage: `url("/images/justice.jpg")` }}>
+        <div className="object-cover hero"></div>
         <div className="text-end text-neutral-content ">
-          <div className="justify-end md:pr-10 md:mr-10 m-2">
-            <h1 className="mb-5 md:text-7xl text-5xl font-bold">Big Ideas </h1>
-            <h1 className="mb-5 md:text-7xl text-5xl font-bold">Creative Thinkings</h1>
-            <h1 className="mb-5 md:text-7xl text-5xl font-bold">Driven By Technology</h1>
+          <div className="justify-end m-2 md:pr-10 md:mr-10">
+            <h1 className="mb-5 text-5xl font-bold md:text-7xl">Big Ideas </h1>
+            <h1 className="mb-5 text-5xl font-bold md:text-7xl">Creative Thinkings</h1>
+            <h1 className="mb-5 text-5xl font-bold md:text-7xl">Driven By Technology</h1>
             <button className="btn btn-primary">Learn More</button>
           </div>
         </div>
