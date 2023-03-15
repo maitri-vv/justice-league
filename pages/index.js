@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import SplitType from 'split-type'
+import Testimonials from '@/components/testimonials'
+//import SplitType from 'split-type'
 
 // let text = new SplitType('#text');
 //         let characters = document.querySelectorAll('.char');
@@ -44,9 +45,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
-      
+      <Testimonials />
+       
     </div>
+    
     
   )
 }
