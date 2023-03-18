@@ -44,7 +44,7 @@ export default function Home() {
             <h1 className="mb-5 text-5xl font-bold md:text-7xl">Big Ideas </h1>
             <h1 className="mb-5 text-5xl font-bold md:text-7xl">Creative Thinkings</h1>
             <h1 className="mb-5 text-5xl font-bold md:text-7xl">Driven By Technology</h1>
-            <button className="btn btn-primary">Learn More</button>
+            <button className="btn btn-active btn-primary">Learn More</button>
           </div>
         </div>
       </div>
