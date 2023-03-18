@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 
 
 import Testimonials from '@/components/Testimonials'
+import Domainnews from '@/pages/Domainnews'
 
 
 // let text = new SplitType('#text');
@@ -48,7 +49,7 @@ export default function Home() {
         </div>
       </div>
       <Testimonials />
-       
+      
     </div>
     
     
