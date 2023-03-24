@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import NewsItem from './NewsItem'
-import Spinner from './Spinner'
+import Spinner from './FSpinner'
 import PropTypes from 'prop-types'
-import InfiniteScroll from "react-infinite-scroll-component";
+// import InfiniteScroll from "react-infinite-scroll-component";
 
 
 export class News extends Component {
