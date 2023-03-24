@@ -12,11 +12,11 @@ const FNewsItem =(props)=> {
           {source}
         </span>
         </div>
-          <img src={imageUrl} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">{title}...</h5>
-            <p className="card-text">{discription}...</p>
-            <p className="card-text"><small className="text-muted">By {author} on {new Date(publishedAt).toGMTString()}</small></p>
+          <img src={imageUrl} className="" alt="..." />
+          <div className="">
+            <h5 className="">{title}...</h5>
+            <p className="">{discription}...</p>
+            <p className=""><small className="text-muted">By {author} on {new Date(publishedAt).toGMTString()}</small></p>
             <a href={newsUrl} rel="noreferrer" target="_blank" className="btn btn-sm btn-primary">Read More</a>
           </div>
         </div>
