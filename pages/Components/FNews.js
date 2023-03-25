@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import NewsItem from "./FNewsItem";
-import Spinner from "./FSpinner";
 import PropTypes from "prop-types";
 // import InfiniteScroll from "react-infinite-scroll-component";
 import InfiniteScroll from 'react-infinite-scroller';
@@ -68,18 +67,12 @@ const FNews = (props) => {
 
   return (
     <div>
-      <h1 className="text-4xl text-center m-4 font-bold p-5">
+      <h1 className="p-5 m-4 text-4xl font-bold text-center">
         {capitalizeFirstLetter(props.category ? props.category : "General")}{" "}
         News Headline
       </h1>
-      {loading && <Spinner />}
-      <InfiniteScroll
-        dataLength={articles.length}
-        next={fetchMoreData}
-        hasMore={articles.length !== totalResults}
-        loader={<Spinner />}
-      >
-        <div className="grid w-full place-content-center p-5 bg-slate-200">
+     
+        <div className="grid w-full p-5 place-content-center bg-slate-200">
           <div className="grid grid-cols-1 gap-10 m-3 justify-items-center xl:grid-cols-3 xl:max-w-screen-xl lg:max-w-screen-lg place-content-center ">
             {articles.map((element) => {
               return (
@@ -109,7 +102,7 @@ const FNews = (props) => {
               </div>
             })}
           </div> */}
-      </InfiniteScroll>
+      
       {/* <div className="container d-flex justify-content-between">
             <button disabled={page <= 1} type="button" onClick={handlePrevClick} className="btn btn-primary btn-lg"> &larr; Prev</button>
             <button disabled={page + 1 > Math.ceil(totalResults / 18)} type="button" onClick={handleNextClick} className="btn btn-secondary btn-lg">Next &rarr;</button>
