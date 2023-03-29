@@ -4,8 +4,8 @@ import { images } from '@/next.config'
 const Testimonials = () => {
   return (
     <div>
-     <h2 className="text-3xl text-black font-bold items-center text-center">
-      Testimonials<div className="badge badge-primary text-xs badge-top">3</div>
+     <h2 className="text-4xl text-black font-bold items-center text-center m-4 p-5">
+      Testimonials
     </h2>
     <div className="grid justify-center w-full pt-6 pb-6 bg-slate-800">
       <div className="grid grid-cols-2 gap-5 m-5 justify-items-center xl:grid-cols-3 xl:max-w-screen-xl lg:max-w-screen-lg ">
