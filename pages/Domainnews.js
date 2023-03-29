@@ -6,12 +6,12 @@ const Domainnews = () => {
       <h2 className="text-4xl text-black font-bold items-center text-center">
       Know Your Case
     </h2>
-      <div className="carousel w-full ">
+      <div className="carousel w-full data-theme='dark'">
   <div id="item1" className="carousel-item max-w-md p-4 space-x-4 rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
-    <h2 className="card-title">Right to equality</h2>
+    <h2 className="card-title">War and Peace</h2>
     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
       do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -30,11 +30,11 @@ const Domainnews = () => {
   </div>
   </div>
   </div> 
-  <div id="item2" className="carousel-item max-w-md p-4 space-x-4 bg-neutral rounded-box">
+  <div id="item2" className="carousel-item max-w-md p-4 space-x-4 bg-violet-600 rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
-    <h2 className="card-title">Right to equality</h2>
+    <h2 className="card-title">Terrorism</h2>
     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
       do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -57,7 +57,7 @@ const Domainnews = () => {
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
-    <h2 className="card-title">Right to equality</h2>
+    <h2 className="card-title">Military Spending</h2>
     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
       do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -80,7 +80,7 @@ const Domainnews = () => {
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
-    <h2 className="card-title">Right to equality</h2>
+    <h2 className="card-title">Nuclear Weapons</h2>
     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
       do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -103,7 +103,7 @@ const Domainnews = () => {
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
-    <h2 className="card-title">Right to equality</h2>
+    <h2 className="card-title">Homicides</h2>
     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
       do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -126,7 +126,7 @@ const Domainnews = () => {
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
-    <h2 className="card-title">Right to equality</h2>
+    <h2 className="card-title">Human Rights</h2>
     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
       do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -149,7 +149,30 @@ const Domainnews = () => {
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
-    <h2 className="card-title">Right to equality</h2>
+    <h2 className="card-title">Corruption</h2>
+    <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+      do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum
+      dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum. Sed ut perspiciatis unde omnis
+      iste natus error sit voluptatem accusantium doloremque
+      laudantium, totam rem aperiam, eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta
+      sunt explicabo.</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Learn now!</button>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div id="item8" className="carousel-item max-w-md p-4 space-x-4 bg-neutral rounded-box">
+  <div className="card w-96 glass">
+  <figure><img src="/images/img.jpg" alt="car!"/></figure>
+  <div className="card-body">
+    <h2 className="card-title">Violence Against & Rights for Children</h2>
     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
       do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -177,6 +200,7 @@ const Domainnews = () => {
   <a href="#item5" className="btn btn-md btn-primary">5</a>
   <a href="#item6" className="btn btn-md">6</a>
   <a href="#item7" className="btn btn-md btn-primary">7</a>
+  <a href="#item8" className="btn btn-md">8</a>
       
 </div>
 <div className="hero min-h-screen" style={{ backgroundImage: `url("/images/img.jpg")` }}>
