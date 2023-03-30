@@ -3,11 +3,11 @@ import { images } from '@/next.config'
 const Domainnews = () => {
   return (
     <div>
-      <h2 className="text-4xl text-black font-bold items-center text-center">
+      <h2 className="items-center p-5 m-4 text-4xl font-bold text-center text-black">
       Know Your Case
     </h2>
       <div className="carousel w-full data-theme='dark'">
-  <div id="item1" className="carousel-item max-w-md p-4 space-x-4 rounded-box">
+  <div id="item1" className="max-w-md p-4 space-x-4 carousel-item rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
@@ -24,13 +24,13 @@ const Domainnews = () => {
       laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta
       sunt explicabo.</p>
-    <div className="card-actions justify-end">
+    <div className="justify-end card-actions">
       <button className="btn btn-primary">Learn now!</button>
     </div>
   </div>
   </div>
   </div> 
-  <div id="item2" className="carousel-item max-w-md p-4 space-x-4 bg-violet-600 rounded-box">
+  <div id="item2" className="max-w-md p-4 space-x-4 carousel-item bg-violet-600 rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
@@ -47,13 +47,13 @@ const Domainnews = () => {
       laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta
       sunt explicabo.</p>
-    <div className="card-actions justify-end">
+    <div className="justify-end card-actions">
       <button className="btn btn-primary">Learn now!</button>
     </div>
   </div>
   </div>
   </div>
-  <div id="item3" className="carousel-item max-w-md p-4 space-x-4 rounded-box">
+  <div id="item3" className="max-w-md p-4 space-x-4 carousel-item rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
@@ -70,13 +70,13 @@ const Domainnews = () => {
       laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta
       sunt explicabo.</p>
-    <div className="card-actions justify-end">
+    <div className="justify-end card-actions">
       <button className="btn btn-primary">Learn now!</button>
     </div>
   </div>
   </div>
   </div> 
-  <div id="item4" className="carousel-item max-w-md p-4 space-x-4 bg-neutral rounded-box">
+  <div id="item4" className="max-w-md p-4 space-x-4 carousel-item bg-neutral rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
@@ -93,13 +93,13 @@ const Domainnews = () => {
       laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta
       sunt explicabo.</p>
-    <div className="card-actions justify-end">
+    <div className="justify-end card-actions">
       <button className="btn btn-primary">Learn now!</button>
     </div>
   </div>
   </div>
   </div>
-  <div id="item5" className="carousel-item max-w-md p-4 space-x-4 rounded-box">
+  <div id="item5" className="max-w-md p-4 space-x-4 carousel-item rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
@@ -116,13 +116,13 @@ const Domainnews = () => {
       laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta
       sunt explicabo.</p>
-    <div className="card-actions justify-end">
+    <div className="justify-end card-actions">
       <button className="btn btn-primary">Learn now!</button>
     </div>
   </div>
   </div>
   </div>
-  <div id="item6" className="carousel-item max-w-md p-4 space-x-4 bg-neutral rounded-box">
+  <div id="item6" className="max-w-md p-4 space-x-4 carousel-item bg-neutral rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
@@ -139,13 +139,13 @@ const Domainnews = () => {
       laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta
       sunt explicabo.</p>
-    <div className="card-actions justify-end">
+    <div className="justify-end card-actions">
       <button className="btn btn-primary">Learn now!</button>
     </div>
   </div>
   </div>
   </div>
-  <div id="item7" className="carousel-item max-w-md p-4 space-x-4 rounded-box">
+  <div id="item7" className="max-w-md p-4 space-x-4 carousel-item rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
@@ -162,13 +162,13 @@ const Domainnews = () => {
       laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta
       sunt explicabo.</p>
-    <div className="card-actions justify-end">
+    <div className="justify-end card-actions">
       <button className="btn btn-primary">Learn now!</button>
     </div>
   </div>
   </div>
   </div>
-  <div id="item8" className="carousel-item max-w-md p-4 space-x-4 bg-neutral rounded-box">
+  <div id="item8" className="max-w-md p-4 space-x-4 carousel-item bg-neutral rounded-box">
   <div className="card w-96 glass">
   <figure><img src="/images/img.jpg" alt="car!"/></figure>
   <div className="card-body">
@@ -185,14 +185,14 @@ const Domainnews = () => {
       laudantium, totam rem aperiam, eaque ipsa quae ab illo
       inventore veritatis et quasi architecto beatae vitae dicta
       sunt explicabo.</p>
-    <div className="card-actions justify-end">
+    <div className="justify-end card-actions">
       <button className="btn btn-primary">Learn now!</button>
     </div>
   </div>
   </div>
   </div>
 </div> 
-<div className="flex justify-center w-full py-2 gap-2">
+<div className="flex justify-center w-full gap-2 py-2">
   <a href="#item1" className="btn btn-md btn-primary">1</a> 
   <a href="#item2" className="btn btn-md">2</a> 
   <a href="#item3" className="btn btn-md btn-primary">3</a> 
@@ -203,9 +203,9 @@ const Domainnews = () => {
   <a href="#item8" className="btn btn-md">8</a>
       
 </div>
-<div className="hero min-h-screen" style={{ backgroundImage: `url("/images/img.jpg")` }}>
+<div className="min-h-screen hero" style={{ backgroundImage: `url("/images/img.jpg")` }}>
   <div className="hero-overlay bg-opacity-60"></div>
-  <div className="hero-content text-center text-neutral-content">
+  <div className="text-center hero-content text-neutral-content">
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
       <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
@@ -214,25 +214,25 @@ const Domainnews = () => {
   </div>
 </div>
 
-<div className='bg-slate-900 p-5'>
-            <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box justify-center m-5">
-            <div className="collapse-title text-xl font-medium">
+<div className='p-5 bg-slate-900'>
+            <div tabIndex={0} className="justify-center m-5 border collapse collapse-plus border-base-300 bg-base-100 rounded-box">
+            <div className="text-xl font-medium collapse-title">
                 Focus me to see content
             </div>
             <div className="collapse-content"> 
                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
             </div>
             </div>
-            <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box justify-center m-5">
-            <div className="collapse-title text-xl font-medium">
+            <div tabIndex={0} className="justify-center m-5 border collapse collapse-plus border-base-300 bg-base-100 rounded-box">
+            <div className="text-xl font-medium collapse-title">
                 Focus me to see content
             </div>
             <div className="collapse-content"> 
                 <p>tabIndex={0} attribute is necessary to make the div focusable</p>
             </div>
             </div>
-            <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box justify-center m-5">
-            <div className="collapse-title text-xl font-medium">
+            <div tabIndex={0} className="justify-center m-5 border collapse collapse-plus border-base-300 bg-base-100 rounded-box">
+            <div className="text-xl font-medium collapse-title">
                 Focus me to see content
             </div>
             <div className="collapse-content"> 

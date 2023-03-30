@@ -15,7 +15,7 @@ const Navbar = () => {
             <li><button className="text-black rounded-md bg-slate-100"><Link href="/Contactus">CONTACT US</Link></button></li>
           </ul>
         </div>
-        <a className="text-2xl font-bold normal-case btn btn-ghost">JUSTICE LEAGUE</a>
+        <Link href="/" className="text-2xl font-bold normal-case btn btn-ghost">JUSTICE LEAGUE</Link>
       </div>
       <div className="hidden mx-5 text-sm font-bold navbar-end lg:flex">
         <ul className="px-1 space-x-4 menu menu-horizontal">
