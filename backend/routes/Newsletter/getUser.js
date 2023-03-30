@@ -50,7 +50,7 @@ router.post(
             user = new newsletter({
                 email: req.body.email,
                 name: hashedName,
-                complain:req.body.complain
+                complain: req.body.complain
             });
             let newUser = await user.save();
             // creating authtoken and sending the token
@@ -76,9 +76,7 @@ router.post(
                     from: config.email.id,
                     to: user.email,
                     subject: `Welcome to Justice League!!`,
-                    text: `We are Happy to see you at Justice League.
-                    Your complaint number is : ${user.otp}
-                    we will repsong you sortly!`,
+                    text: `We are Happy to see you at Justice League.\nYour complaint number is : ${randomNumber} we will repsong you sortly!`,
                 },
                 function (error, info) {
                     if (error) {
@@ -155,7 +153,7 @@ router.post("/googlelogin", async (req, res) => {
                     user = new newsletter({
                         email: email,
                         name: hashedName,
-                        complain:complain
+                        complain: complain
                     });
                     const newUser = await user.save();
                     const data = {
