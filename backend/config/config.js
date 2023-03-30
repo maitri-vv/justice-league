@@ -3,7 +3,7 @@ dotenv.config();
 module.exports = {
     port:process.env.PORT || 8000 ,
     mongoose:{
-        url:'mongodb://localhost:27017/jlBackend',
+        url:'mongodb+srv://yash:yash@cluster0.zkgqfrx.mongodb.net/?retryWrites=true&w=majority',
         
         // url:process.env.MONGO_URL,
         options:{
