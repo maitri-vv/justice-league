@@ -38,7 +38,7 @@ export default function Home() {
       </Head>   
       
       
-      <div className="justify-end md:min-h-screen h-96 hero " style={{ backgroundImage: `url("/images/justice.jpg")` }}>
+      <div className="justify-end h-[30rem] md:min-h-screen hero " style={{ backgroundImage: `url("/images/justice.jpg")` }}>
         <div className="object-cover hero"></div>
         <div className="text-end text-neutral-content ">
           <div className="justify-end m-2 md:pr-10 md:mr-10">
