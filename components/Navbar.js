@@ -11,7 +11,6 @@ const Navbar = () => {
           <ul tabIndex={0} className="p-2 mt-3 font-semibold shadow menu menu-compact dropdown-content rounded-box w-52 bg-neutral">
             <li><Link href="/" className='hover:text-red-400'>HOME</Link></li>
             <li><Link href="/Domainnews" className='hover:text-red-400'>KNOW YOUR CASE</Link></li>
-            <li><Link href="/Aboutus" className='hover:text-red-400'>ABOUT US</Link></li>
             <li><Link href="/NewsSection" className='hover:text-red-400'>DAILY NEWS</Link></li>
             <li><button className="text-black rounded-md bg-slate-100"><Link href="/Contactus">CONTACT US</Link></button></li>
           </ul>
@@ -22,7 +21,6 @@ const Navbar = () => {
         <ul className="px-1 space-x-4 menu menu-horizontal">
             <li><Link href="/" className='hover:text-red-400'>HOME</Link></li>
             <li><Link href="/Domainnews" className='hover:text-red-400'>KNOW YOUR CASE</Link></li>
-            <li><Link href="/Aboutus" className='hover:text-red-400'>ABOUT US</Link></li>
             <li><Link href="/NewsSection" className='hover:text-red-400'>DAILY NEWS</Link></li>
             <li><button className="text-black rounded-md bg-slate-100"><Link href="/Contactus">CONTACT US</Link></button></li>
         </ul>

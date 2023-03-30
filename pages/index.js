@@ -4,8 +4,9 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
 
-import Testimonials from '@/components/Testimonials'
+import Testimonials from '@/components/Whatwedo'
 import Domainnews from '@/pages/Domainnews'
+import Whatwedo from '@/components/Whatwedo'
 
 
 // let text = new SplitType('#text');
@@ -41,15 +42,15 @@ export default function Home() {
         <div className="object-cover hero"></div>
         <div className="text-end text-neutral-content ">
           <div className="justify-end m-2 md:pr-10 md:mr-10">
-            <h1 className="mb-5 text-5xl font-bold md:text-7xl">Big Ideas </h1>
-            <h1 className="mb-5 text-5xl font-bold md:text-7xl">Creative Thinkings</h1>
-            <h1 className="mb-5 text-5xl font-bold md:text-7xl">Driven By Technology</h1>
+            <h1 className="mb-5 text-5xl font-bold md:text-7xl">Empowerment </h1>
+            <h1 className="mb-5 text-5xl font-bold md:text-7xl">through Justice,</h1>
+            <h1 className="mb-5 text-5xl font-bold md:text-7xl">Progress through Peace</h1>
             <button className="btn btn-active btn-primary">Learn More</button>
           </div>
         </div>
       </div>
       
-      <Testimonials />
+      <Whatwedo />
       
       
     </div>
