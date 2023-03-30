@@ -1,5 +1,5 @@
 import React from 'react'
-
+// import { DatePicker } from '@/components/DatePicker'
 const Contactus = () => {
   return (
     <div>
@@ -12,22 +12,39 @@ const Contactus = () => {
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <div className="card-body">
                 <div className="form-control">
-                <label className="label">
-                    <span className="label-text">Email</span>
-                </label>
-                <input type="text" placeholder="email" className="input input-bordered" />
+                  <label className="label">
+                      <span className="label-date">Date</span>
+                  </label>
+                  <input type="date" placeholder="Date" className="input input-bordered" />
                 </div>
                 <div className="form-control">
                 <label className="label">
-                    <span className="label-text">Password</span>
+                    <span className="label-text">Name</span>
                 </label>
-                <input type="text" placeholder="password" className="input input-bordered" />
+                <input type="text" placeholder="Name" className="input input-bordered" />
+                </div>
+                <div className="form-control">
                 <label className="label">
-                    <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                    <span className="label-text">Email</span>
                 </label>
+                <input type="email" placeholder="email" className="input input-bordered" />
+                </div>
+                <div className="form-control">
+                <label className="label">
+                    <span className="label-text">Number</span>
+                </label>
+                <input type="number" placeholder="Number" className="input input-bordered" />
+                </div>
+
+                
+                <div className="form-control">
+                <label className="label">
+                    <span className="label-text">Complain</span>
+                </label>
+                <textarea type="text" placeholder="Complain" className="input input-bordered resize-none h-32" />
                 </div>
                 <div className="form-control mt-6">
-                <button className="btn btn-primary">Login</button>
+                <button className="btn btn-primary">Submit</button>
                 </div>
             </div>
             </div>

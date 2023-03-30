@@ -10,10 +10,10 @@ const Whatwedo = () => {
     <div className="grid justify-center w-full pt-6 pb-6 bg-slate-800">
       <div className="grid grid-cols-2 gap-5 m-5 justify-items-center xl:grid-cols-3 xl:max-w-screen-xl lg:max-w-screen-lg ">
           <div className="shadow-xl card lg:card-side bg-base-100">
-        <figure><img src="/images/wwd1.jpg" alt="Album"/></figure>
+        <figure><img src="/images/img.jpg" alt="Album"/></figure>
         <div className="card-body">
-          <h2 className="card-title">Our Mission</h2>
-          <p>The mission of the Department of Justice is to uphold the rule of law, to keep our country safe, and to protect civil rights.</p>
+          <h2 className="card-title">New album is released!</h2>
+          <p>Click the button to listen on Spotiwhy app.</p>
           <div className="justify-end card-actions">
           <div className="rating gap-1">
   <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
@@ -26,10 +26,10 @@ const Whatwedo = () => {
         </div>
       </div>
       <div className="shadow-xl card lg:card-side bg-base-100">
-        <figure><img src="/images/wwd3.jpg" alt="Album"/></figure>
+        <figure><img src="/images/img.jpg" alt="Album"/></figure>
         <div className="card-body">
-          <h2 className="card-title">Our Values</h2>
-          <p>Independence and Impartiality. We work each day to earn the public’s trust by following the facts and the law wherever they may lead, without prejudice.</p>
+          <h2 className="card-title">New album is released!</h2>
+          <p>Click the button to listen on Spotiwhy app.</p>
           <div className="justify-end card-actions">
           <div className="rating gap-1">
   <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
@@ -42,10 +42,10 @@ const Whatwedo = () => {
         </div>
       </div>
       <div className="shadow-xl card lg:card-side bg-base-100">
-        <figure><img src="/images/wwd2.jpg" alt="Album"/></figure>
+        <figure><img src="/images/img.jpg" alt="Album"/></figure>
         <div className="card-body">
-          <h2 className="card-title">Our actions</h2>
-          <p>Respect. Our employees value differences in people and in ideas and treat everyone with fairness, dignity, and compassion.</p>
+          <h2 className="card-title">New album is released!</h2>
+          <p>Click the button to listen on Spotiwhy app.</p>
           <div className="justify-end card-actions">
           <div className="rating gap-1">
   <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
