@@ -40,7 +40,7 @@ export default function Home() {
       
       <div className="justify-end h-[30rem] md:min-h-screen hero " style={{ backgroundImage: `url("/images/justice.jpg")` }}>
         <div className="object-cover hero"></div>
-        <div className="text-end text-neutral-content ">
+        <div className="text-end text-white ">
           <div className="justify-end m-2 md:pr-10 md:mr-10">
             <h1 className="mb-5 text-5xl font-bold md:text-7xl">Empowerment </h1>
             <h1 className="mb-5 text-5xl font-bold md:text-7xl">through Justice,</h1>

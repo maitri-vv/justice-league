@@ -61,9 +61,7 @@ const Contactus = () => {
               Register Your Complaint here!
             </h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            Please describe the impact of the incident on you or others involved. This can help us understand the severity of the situation and take appropriate action.
             </p>
           </div>
           <div className="flex-shrink-0 w-full max-w-sm shadow-2xl card bg-base-100">
