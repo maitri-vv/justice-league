@@ -117,7 +117,7 @@ const Domainnews = () => {
 </div>
 <div className="min-h-screen hero" style={{ backgroundImage: `url("/images/img.jpg")` }}>
   <div className="hero-overlay bg-opacity-60"></div>
-  <div className="text-center hero-content text-neutral-content">
+  <div className="text-center hero-content text-white">
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">About Us</h1>
       <p className="mb-5">At our core, we believe in a world where justice and peace prevail. We are a team of passionate individuals dedicated to making a positive impact in our communities and beyond. Our mission is to promote equality, fairness, and human rights for all, and we work tirelessly towards this goal every day. Whether through advocacy, education, or direct action, we strive to create a better future for ourselves and future generations. Join us on this journey towards a more just and peaceful world.</p>

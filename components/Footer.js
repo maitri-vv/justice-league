@@ -5,7 +5,7 @@ const Footer = () => {
     
   return (
     <div>
-        <footer className="justify-between p-16 footer bg-slate-900 text-neutral-content">
+        <footer className="justify-between p-16 footer bg-slate-900 text-white">
         <div>
     <span className="text-xl footer-title">Services</span> 
     <Link href="/"className="text-lg link link-hover">Home</Link> 

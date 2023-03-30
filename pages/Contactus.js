@@ -54,15 +54,15 @@ const Contactus = () => {
   };
   return (
     <div>
-      <div className="min-h-screen hero bg-base-200">
+      <div className="min-h-screen hero bg-base-200 text-white"  style={{ backgroundImage: `url("/images/complain.png")` }}>
         <div className="flex-col hero-content lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">
               Register Your Complaint here!
             </h1>
-            <p className="py-6">
+            <h3 className="py-6 text-2xl font-semibold">
             Please describe the impact of the incident on you or others involved. This can help us understand the severity of the situation and take appropriate action.
-            </p>
+            </h3>
           </div>
           <div className="flex-shrink-0 w-full max-w-sm shadow-2xl card bg-base-100">
             <div className="card-body">
