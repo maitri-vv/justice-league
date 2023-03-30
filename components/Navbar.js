@@ -1,7 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-
-
 const Navbar = () => {
   return (
     <div className="p-6 navbar bg-slate-900 text-neutral-content">
@@ -13,24 +11,21 @@ const Navbar = () => {
           <ul tabIndex={0} className="p-2 mt-3 font-semibold shadow menu menu-compact dropdown-content rounded-box w-52 bg-neutral">
             <li><Link href="/" className='hover:text-red-400'>HOME</Link></li>
             <li><Link href="/Domainnews" className='hover:text-red-400'>KNOW YOUR CASE</Link></li>
-            <li><Link href="/Aboutus" className='hover:text-red-400'>ABOUT US</Link></li>
             <li><Link href="/NewsSection" className='hover:text-red-400'>DAILY NEWS</Link></li>
             <li><button className="text-black rounded-md bg-slate-100"><Link href="/Contactus">CONTACT US</Link></button></li>
           </ul>
         </div>
-        <a className="text-2xl font-bold normal-case btn btn-ghost">JUSTICE LEAGUE</a>
+        <Link href="/" className="text-2xl font-bold normal-case btn btn-ghost">JUSTICE LEAGUE</Link>
       </div>
       <div className="hidden mx-5 text-sm font-bold navbar-end lg:flex">
         <ul className="px-1 space-x-4 menu menu-horizontal">
             <li><Link href="/" className='hover:text-red-400'>HOME</Link></li>
             <li><Link href="/Domainnews" className='hover:text-red-400'>KNOW YOUR CASE</Link></li>
-            <li><Link href="/Aboutus" className='hover:text-red-400'>ABOUT US</Link></li>
             <li><Link href="/NewsSection" className='hover:text-red-400'>DAILY NEWS</Link></li>
             <li><button className="text-black rounded-md bg-slate-100"><Link href="/Contactus">CONTACT US</Link></button></li>
         </ul>
         
       </div>
-     
     </div>
   )
 }

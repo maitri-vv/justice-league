@@ -18,7 +18,7 @@ const FNews = (props) => {
   const updateNow = async () => {
     // props.setProgress(10);
     console.log("compnentDidMount");
-    let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&country=${props.category}&apiKey=98421eb58c7c4258bf674a2a932c747f&page=${page}&pagesize=${props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&country=${props.category}&apiKey=d3e35a632645497cab557eb59525c637&page=${page}&pagesize=${props.pageSize}`;
 
     setLoading(true);
     // props.setProgress(30);
@@ -53,7 +53,7 @@ const FNews = (props) => {
   const fetchMoreData = async () => {
     let url = `https://newsapi.org/v2/top-headlines?country=${
       props.country
-    }&country=${props.category}&apiKey=98421eb58c7c4258bf674a2a932c747f&page=${
+    }&country=${props.category}&apiKey=d3e35a632645497cab557eb59525c637f&page=${
       page + 1
     }&pagesize=${props.pageSize}`;
     setPage(page + 1);
@@ -74,7 +74,7 @@ const FNews = (props) => {
      
         <div className="grid w-full p-5 place-content-center bg-slate-200">
           <div className="grid grid-cols-1 gap-10 m-3 justify-items-center xl:grid-cols-3 xl:max-w-screen-xl lg:max-w-screen-lg place-content-center ">
-            {articles.map((element) => {
+            {articles?.map((element) => {
               return (
                 <div className="" key={element.url}>
                   <NewsItem
@@ -95,18 +95,6 @@ const FNews = (props) => {
             })}
           </div>
         </div>
-        {/* <div className="row">
-            {!loading && articles.map((element) => {
-              return <div className="col-md-4" key={element.url}>
-                <NewsItem title={element.title ? element.title : ""} discription={element.description ? element.description : ""} imageUrl={element.urlToImage ? element.urlToImage : "https://image.cnbcfm.com/api/v1/image/107004840-1642794265011-2022-01-21T190502Z_3_LYNXMPEI0K10G_RTROPTP_4_SHELL-OUTLOOK.JPG?v=1642794359"} newsUrl={element.url} author={element.author? element.author:"UnKnown"} publishedAt={element.publishedAt} source={element.source.name} />
-              </div>
-            })}
-          </div> */}
-      
-      {/* <div className="container d-flex justify-content-between">
-            <button disabled={page <= 1} type="button" onClick={handlePrevClick} className="btn btn-primary btn-lg"> &larr; Prev</button>
-            <button disabled={page + 1 > Math.ceil(totalResults / 18)} type="button" onClick={handleNextClick} className="btn btn-secondary btn-lg">Next &rarr;</button>
-          </div> */}
     </div>
   );
 };
