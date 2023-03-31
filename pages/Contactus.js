@@ -54,7 +54,7 @@ const Contactus = () => {
   };
   return (
     <div>
-      <div className="min-h-screen hero bg-base-200 text-white"  style={{ backgroundImage: `url("/images/complain.png")` }}>
+      <div className="min-h-screen text-white hero bg-base-200"  style={{ backgroundImage: `url("/images/complain.png")` }}>
         <div className="flex-col hero-content lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">
@@ -105,7 +105,7 @@ const Contactus = () => {
                   placeholder="Complaint"
                   name="complain"
                   required onChange={(e) => handleChange(e)}
-                  className="h-32 resize-none input input-bordered"
+                  className="h-32 text-black resize-none input input-bordered"
                 />
               </div>
               <div className="mt-6 form-control">
