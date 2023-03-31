@@ -5,7 +5,7 @@ const Whatwedo = () => {
   return (
     <div>
      <h2 className="items-center p-5 m-4 text-4xl font-bold text-center text-black bg-slate-200">
-      What we do
+      Know Your Case
     </h2>
     <div className="grid justify-center w-full pt-6 pb-6 bg-slate-800">
       <div className="grid grid-cols-2 gap-10 m-5 justify-items-center xl:grid-cols-3 xl:max-w-screen-xl lg:max-w-screen-lg ">
