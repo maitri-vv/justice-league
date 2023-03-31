@@ -3,7 +3,7 @@ dotenv.config();
 module.exports = {
     port:process.env.PORT || 8000 ,
     mongoose:{
-        url:'mongodb+srv://MAITRI:MAITRI@cluster0.qixwo56.mongodb.net/company?retryWrites=true&w=majority',
+        url:'mongodb+srv://yash:yash@cluster0.zkgqfrx.mongodb.net/?retryWrites=true&w=majority',
         
         // url:process.env.MONGO_URL,
         options:{

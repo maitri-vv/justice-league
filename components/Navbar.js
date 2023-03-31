@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 const Navbar = () => {
   return (
-    <div className="p-6 navbar bg-slate-900 text-neutral-content">
+    <div className="p-6 navbar bg-slate-900 text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
