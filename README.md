@@ -1,8 +1,6 @@
 ## Google Solution Challenge 2023
-UN Sustainable Goal 16: Peace, Justice and Strong Institutions. The lack of awareness and education about justice and social rights is a major challenge in creating a peaceful and just society, particularly for the backward classes. This leads to a lack of community involvement in the fight for justice, which in turn perpetuates discrimination and inequality.
+Based on UN Sustainable Goal 16: Peace, Justice and Strong Institutions. The lack of awareness and education about justice and social rights is a major challenge in creating a peaceful and just society, particularly for the backward classes. This leads to a lack of community involvement in the fight for justice, which in turn perpetuates discrimination and inequality.
 Our website aims to address this challenge by creating a community of peace makers who are educated and aware of their rights and responsibilities towards society. The website will provide resources and information about justice and social rights, as well as opportunities for community engagement and activism. Through this platform, the website aims to empower the backward classes to fight for their rights and become active participants in the creation of a just and peaceful society.
-
-## Images
 
 
 
