@@ -45,7 +45,7 @@ export default function Home() {
             <h1 className="mb-5 text-5xl font-bold md:text-7xl">Empowerment </h1>
             <h1 className="mb-5 text-5xl font-bold md:text-7xl">through Justice,</h1>
             <h1 className="mb-5 text-5xl font-bold md:text-7xl">Progress through Peace</h1>
-            <button href="#Home" className="btn btn-active btn-primary">Learn More</button>
+            <a href="Domainnews" className="btn btn-active btn-primary">Learn More</a>
           </div>
         </div>
       </div>
